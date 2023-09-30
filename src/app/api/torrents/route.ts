@@ -2,6 +2,8 @@ import { NextResponse } from "next/server";
 // @ts-expect-error no types for this package
 import Transmission from "transmission";
 
+export const dynamic = "force-dynamic";
+
 enum transmissionTorrentStatus {
   STOPPED,
   CHECK_WAIT,
